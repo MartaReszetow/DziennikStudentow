@@ -1,19 +1,19 @@
-
+package DziennikStudentow;
 
 import java.util.*;
 import java.util.stream.Collectors;
 
 public class Dziennik {
-//Klasa Dziennik powinna:
+//Klasa DziennikStudentow.Dziennik powinna:
 //    - posiadać (jako pole) listę Studentów.
-//    - posiadać metodę 'dodajStudenta(Student):void' do dodawania nowego studenta do dziennika
-//    - posiadać metodę 'usuńStudenta(Student):void' do usuwania studenta
+//    - posiadać metodę 'dodajStudenta(DziennikStudentow.Student):void' do dodawania nowego studenta do dziennika
+//    - posiadać metodę 'usuńStudenta(DziennikStudentow.Student):void' do usuwania studenta
 //    - posiadać metodę 'usuńStudenta(String):void' do usuwania studenta po jego numerze indexu
-//    - posiadać metodę 'zwróćStudenta(String):Student' która jako parametr przyjmuje numer indexu studenta,
+//    - posiadać metodę 'zwróćStudenta(String):DziennikStudentow.Student' która jako parametr przyjmuje numer indexu studenta,
 //      a w wyniku zwraca konkretnego studenta.
 //    - posiadać metodę 'podajŚredniąStudenta(String):double' która przyjmuje indeks studenta i zwraca średnią ocen studenta. (ZROBIONE W STUDENCIE)
-//    - posiadać metodę 'podajStudentówZagrożonych():List<Student>'
-//    - posiadać metodę 'posortujStudentówPoIndeksie():List<Student>' - która sortuje listę studentów po numerach indeksów, a następnie zwraca posortowaną listę.
+//    - posiadać metodę 'podajStudentówZagrożonych():List<DziennikStudentow.Student>'
+//    - posiadać metodę 'posortujStudentówPoIndeksie():List<DziennikStudentow.Student>' - która sortuje listę studentów po numerach indeksów, a następnie zwraca posortowaną listę.
 //    - posiadać metodę ‘dodajOcene(String, Double):void’
 
     List<Student> studentList = new ArrayList<Student>();
@@ -39,9 +39,9 @@ public class Dziennik {
     }
     // możnaby zrobić metodę z iteratorem
 
-//    Iterator<Student> it = studentList.iterator();
+//    Iterator<DziennikStudentow.Student> it = studentList.iterator();
 //    while (it.hasNext()){
-//        Student st = it.hasNext();
+//        DziennikStudentow.Student st = it.hasNext();
 //        if(st.getNrIndeksu().equalsIgnoreCase(indexNumber)){
 //            it.remove();
 //        }

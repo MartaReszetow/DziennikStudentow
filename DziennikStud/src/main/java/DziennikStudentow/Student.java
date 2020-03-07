@@ -1,4 +1,4 @@
-
+package DziennikStudentow;
 
 import lombok.Data;
 import lombok.Getter;
@@ -15,7 +15,7 @@ import java.util.OptionalDouble;
 @NoArgsConstructor
 
 public class Student {
-    // Stwórz aplikację, a w niej klasę Dziennik i Student. Klasa Student powinna:
+    // Stwórz aplikację, a w niej klasę DziennikStudentow.Dziennik i DziennikStudentow.Student. Klasa DziennikStudentow.Student powinna:
     //    - posiadać listę ocen studenta (List<Double>)
     //    - posiadać (pole) numer indeksu studenta (String)
     //    - posiadać (pole) imię studenta
@@ -35,7 +35,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "DziennikStudentow.Student{" +
                 "listaOcen=" + listaOcen +
                 ", nrIndeksu='" + nrIndeksu + '\'' +
                 ", imie='" + imie + '\'' +

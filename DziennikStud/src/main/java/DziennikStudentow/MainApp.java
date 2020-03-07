@@ -1,3 +1,5 @@
+package DziennikStudentow;
+
 import java.util.Optional;
 
 public class MainApp {
